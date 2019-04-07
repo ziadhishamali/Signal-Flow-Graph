@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Flow Signal Graph</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="./node_modules/vis/dist/vis.js"></script>
+    <link rel="stylesheet" href="./node_modules/vis/dist/vis.css">
+    <script type="text/javascript" src="app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBBdrrFya5mOjVKsXneTZ3TuPGMjZ2yR2Q",
+            authDomain: "signal-flow-graph.firebaseapp.com",
+            databaseURL: "https://signal-flow-graph.firebaseio.com",
+            projectId: "signal-flow-graph",
+            storageBucket: "signal-flow-graph.appspot.com",
+            messagingSenderId: "372625350158"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+</head>
+
+<body onload="init();">
+
+    <div class="container" id="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+
+    <div class="sideBar" id="sideBar">
+
+        <div class="menuBtn" id="menuBtn">
+
+            <li class="homeBtn" id="homeBtn">Home</li>
+            <li class="howBtn" id="howBtn">How to use ...</li>
+            <li class="aboutBtn" id="aboutBtn">About</li>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="sideBarHow" id="sideBarHow">
+
+        <p class="instructions">Use the canvas on the home page to draw the required the signal flow graph, you can add nodes, add edges, edit nodes, edit edges or delete any of them</p>
+
+    </div>
+
+
+
+    <div class="sideBarAbout" id="sideBarAbout">
+
+        <p class="description">This application was made for educational purposes as a linear control system course project under the supervision of Prof. Dr. Ibrahim Abdel-Salam </p><br><br>
+        <p class="description">For contact: </p>
+        <p class="names"> Youssef Ahmed Sayed Gabriel: <span class="gmail"> Usseif97@gmail.com</span></p>
+        <p class="names"> Ziad Hisham Ali Abdel-Hameed: <span class="gmail"> ziadhesham97@gmail.com</span></p>
+
+    </div>
+
+    <div class="allContent" id="allContent">
+
+        <input type="button" id="moveToTop" class="moveToTop" value="return to draw"  href="#answer"/>
+
+        <div class="sub1" id="sub1">
+
+            <p class="mainPar"><span class="initial">S</span>ignal <span class="initial">F</span>low <span class="initial">G</span>raph</p>
+
+            <div class="main">
+                <script src="Node.js"></script>
+                <script src="Edge.js"></script>
+            </div>
+
+            <div id="node-popUp">
+                <span id="node-operation">node</span> <br>
+                <table style="margin:auto;">
+                    <tr>
+                        <td>label</td><br><td><input id="node-label" value="y" autofocus/></td>
+                    </tr>
+                </table>
+                <input type="button" value="save" id="node-saveButton" class="button"/>
+                <input type="button" value="cancel" id="node-cancelButton" class="button"/>
+            </div>
+
+            <div id="edge-popUp">
+                <span id="edge-operation">edge</span> <br>
+                <table style="margin:auto;">
+                    <tr>
+                        <td>label</td><br><td><input id="edge-label" value="y" autofocus/></td>
+                    </tr>
+                </table>
+                <input type="button" value="save" id="edge-saveButton" class="button"/>
+                <input type="button" value="cancel" id="edge-cancelButton" class="button"/>
+            </div>
+
+            <br/>
+
+            <div id="mynetwork"></div>
+
+            <input type="button" id="evaluateBtn" class="button-evaluate" value="Evaluate"/>
+            <input type="button" id="resetBtn" class="button-reset" value="Reset"/>
+
+            <script type="text/javascript" src="visLogic.js"></script>
+
+        </div>
+
+        <h2 class="answer" id="answer">Result</h2>
+
+        <div class="output" id="output"></div>
+
+    </div>
+
+</body>
+</html>

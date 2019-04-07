@@ -1,0 +1,667 @@
+#html {
+    overflow: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/*                                               */
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: orange;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ff7500;
+}
+
+/*                                               */
+/* width */
+/*
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #f1f1f1;
+    border-radius: 4px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: orange;
+    border-radius: 4px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: orangered;
+}*/
+
+.sub1 {
+    position: relative;
+    background-attachment: fixed;
+    background-image: url("background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    width: 100.95%;
+    margin-left: -10px;
+    margin-top: -40px;
+}
+
+.mainPar {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: "Berlin Sans FB";
+}
+
+.initial {
+    font-size: 45px;
+    color: orange;
+    font-family: "Berlin Sans FB";
+}
+
+.titleRes {
+    font-size: 40px;
+    font-weight: bold;
+    color: orange;
+    font-family: "Berlin Sans FB";
+}
+
+#mynetwork {
+    width:100%;
+    height: 790px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#output {
+    display: none;
+    position: relative;
+    background-attachment: fixed;
+    background-image: url("background4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    width: 99.9%;
+    margin-left: -10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: rgba(150, 150, 150, 0.35);
+}
+
+#answer {
+    display: none;
+    background-color: white;
+    font-size: 60px;
+    text-align: center;
+    color: #00B7FF;
+    font-family: "Berlin Sans FB";
+}
+
+table {
+    font-family: "Berlin Sans FB";
+    color: white;
+}
+
+table.legend_table {
+    font-family: "Berlin Sans FB";
+    font-size: 11px;
+    color: white;
+}
+table.legend_table,td {
+    padding: 2px;
+}
+div.table_content {
+    width:80px;
+    text-align:center;
+}
+div.table_description {
+    width:100px;
+}
+
+#node-operation {
+    font-family: "Berlin Sans FB";
+    color: white;
+}
+
+#edge-operation {
+    font-family: "Berlin Sans FB";
+    color: white;
+}
+
+#operation {
+    font-family: "Berlin Sans FB";
+    font-size:28px;
+}
+
+#node-popUp {
+    display:none;
+    visibility: visible;
+    position:absolute;
+    top:40%;
+    left:40%;
+    z-index:299;
+    width:250px;
+    height:120px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-style:solid;
+    border-width:3px;
+    border-color: #00B7FF;
+    padding:10px;
+    text-align: center;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 1s;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+#node-label {
+    font-family: "Berlin Sans FB";
+}
+
+#edge-popUp {
+    display:none;
+    position:absolute;
+    top:40%;
+    left:40%;
+    z-index:299;
+    width:250px;
+    height:120px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-style:solid;
+    border-width:3px;
+    border-color: #00B7FF;
+    padding:10px;
+    text-align: center;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.3s;
+}
+
+.numForPaths {
+    font-family: "Berlin Sans FB";
+    font-size: 20px;
+}
+
+.eachForGain {
+    font-family: "Berlin Sans FB";
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.eachForGainAgain {
+    font-family: "Berlin Sans FB";
+    font-size: 20px;
+    padding-left: 70px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+i {
+    border: solid black;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 5px;
+}
+
+hr{
+    height: 3px;
+    color: #00B7FF;
+    background-color: #00B7FF;
+    border: none;
+    display: none;
+}
+
+.number {
+    color: green;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.space {
+    padding-right: 10px;
+}
+
+.toolbar {
+    display: flex;
+    align-content: center;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.moveToTop {
+    font-family: "Berlin Sans FB";
+    position: fixed;
+    display: none;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    background-color: #00B7FF;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #00B7FF;
+    border-radius: 10%;
+}
+
+.moveToTop:hover {
+    background-color: #03ddff;
+    border: 2px solid #03ddff;
+    border-radius: 10%;
+    color: white;
+}
+
+.moveToTop:active {
+    background-color: #00ffd2;
+    border: 2px solid #00ffd2;
+    border-radius: 10%;
+    color: white;
+}
+
+.button-evaluate {
+    font-family: "Berlin Sans FB";
+    position: relative;
+    background-color: #00B7FF;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #00B7FF;
+    border-radius: 5px;
+}
+
+.button-evaluate:hover {
+    background-color: #03ddff;
+    border: 2px solid #03ddff;
+    border-radius: 10%;
+    color: white;
+}
+
+.button-evaluate:active {
+    background-color: #00ffd2;
+    border: 2px solid #00ffd2;
+    border-radius: 10%;
+    color: white;
+}
+
+.button-evaluate:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+
+.button-reset {
+    font-family: "Berlin Sans FB";
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #00B7FF;
+    border-radius: 5px;
+}
+
+.button-reset:hover {
+    background-color: #00B7FF;
+    border: 2px solid #00B7FF;
+    border-radius: 10%;
+    color: white;
+}
+
+.button-reset:active {
+    background-color: #05e1ff;
+    border: 2px solid #05e1ff;
+    border-radius: 10%;
+    color: white;
+}
+
+.button-reset:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+
+.button {
+    font-family: "Berlin Sans FB";
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px 10px;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 2px solid #00B7FF;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #00B7FF;
+    border: 2px solid #00B7FF;
+    border-radius: 10%;
+    color: white;
+}
+
+.button:active {
+    background-color: #05e1ff;
+    border: 2px solid #05e1ff;
+    border-radius: 10%;
+    color: white;
+}
+
+.button:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.container {
+    cursor: pointer;
+    position: fixed;
+    display: block;
+    top: 30px;
+    right: 30px;
+    z-index: 99;
+    -webkit-transition-duration: 0.35s; /* Safari */
+    transition-duration: 0.35s;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+    background-color: orange;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+    background-color: orange;
+}
+
+.menuBtn {
+    /*background-color: #2B3C58;*/
+    position: relative;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.menuBtn li {
+    list-style: none;
+    font-family: "Bauhaus 93";
+    font-size: 20px;
+    padding: 15px;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    text-align: center;
+}
+
+.menuBtn li:hover {
+    list-style: none;
+    font-size: 20px;
+    padding: 15px;
+    color: black;
+    border-left: 3px solid orange;
+    cursor: pointer;
+}
+
+.sideBar {
+    padding-top: 10px;
+    background-color: white;
+    display: block;
+    right: -300px;
+    position: fixed;
+    z-index: 1000;
+    height: 101%;
+    width: 300px;
+    -webkit-transition-duration: 0.35s; /* Safari */
+    transition-duration: 0.35s;
+}
+
+.sideBarHow {
+    padding-top: 10px;
+    background-color: white;
+    display: block;
+    right: -1000px;
+    position: fixed;
+    z-index: 1000;
+    height: 101%;
+    width: 1000px;
+    -webkit-transition-duration: 0.35s; /* Safari */
+    transition-duration: 0.35s;
+}
+
+.instructions {
+    padding: 10px;
+    font-family: "Berlin Sans FB";
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+.sideBarAbout {
+    padding-top: 10px;
+    background-color: white;
+    display: block;
+    right: -1000px;
+    position: fixed;
+    z-index: 1000;
+    height: 101%;
+    width: 1000px;
+    -webkit-transition-duration: 0.35s; /* Safari */
+    transition-duration: 0.35s;
+}
+
+.description {
+    padding: 10px;
+    font-family: "Berlin Sans FB";
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+.names {
+    font-family: "Berlin Sans FB";
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.gmail {
+    font-family: "Berlin Sans FB";
+    font-size: 25px;
+    color: orange;
+    text-align: center;
+}
+
+.homeBtn {
+    margin-top: 300px;
+    color: black;
+    border-left: 3px solid orange;
+}
+
+.homeBtn:hover {
+    color: black !important;
+    border-left: 3px solid orange !important;
+    cursor: pointer !important;
+}
+
+.howBtn {
+    color: grey;
+}
+
+.howBtn:hover {
+    color: black !important;
+    border-left: 3px solid orange !important;
+    cursor: pointer !important;
+}
+
+.aboutBtn {
+    margin-top: 50px;
+    color: grey;
+}
+
+.aboutBtn:hover {
+    color: black !important;
+    border-left: 3px solid orange !important;
+    cursor: pointer !important;
+}
+
+.toggleBar {
+    font-family: "Berlin Sans FB";
+    position: fixed;
+    display: block;
+    top: 20px;
+    right: 30px;
+    z-index: 99;
+    background-color: #00B7FF;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    -webkit-transition-duration: 0.35s; /* Safari */
+    transition-duration: 0.35s;
+    cursor: pointer;
+    border: 2px solid #00B7FF;
+    border-radius: 10%;
+}
+
+.toggleBar:hover {
+    background-color: #03ddff;
+    border: 2px solid #03ddff;
+    border-radius: 10%;
+    color: white;
+}
+
+.toggleBar:active {
+    background-color: #00ffd2;
+    border: 2px solid #00ffd2;
+    border-radius: 10%;
+    color: white;
+}
+
+.allContent {
+    position: relative;
+    right: 0px;
+    -webkit-transition-duration: 0.35s; /* Safari */
+    transition-duration: 0.35s;
+}
+
+.solution {
+    font-family: "Berlin Sans FB";
+    font-size: 20px;
+    color: black;
+    padding-left: 20px;
+}
+
+.solutionLbl {
+    font-weight: bold;
+    color: green;
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+.equation {
+    padding: 40px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Berlin Sans FB";
+    color: black;
+}
+
+.equationLbl {
+    font-size: 60px;
+    color: green;
+    font-weight: bold;
+}
+
+.sigma {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.delta {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.equation2 {
+    padding-left: 20px;
+    font-size: 30px;
+    font-family: "Berlin Sans FB";
+    color: black;
+}
+
+.equationLbl2 {
+    font-size: 40px;
+    color: green;
+    font-weight: bold;
+    padding-right: 20px;
+}
