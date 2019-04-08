@@ -421,16 +421,17 @@ hr{
 }
 
 .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
+    width: 26px;
+    height: 3px;
     background-color: white;
-    margin: 6px 0;
+    margin: 4px 0;
     transition: 0.4s;
+    border-radius: 10%;
 }
 
 .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
+    -webkit-transform: rotate(-45deg) translate(-3px, 2px);
+    transform: rotate(-45deg) translate(-3px, 2px);
     background-color: orange;
 }
 
@@ -448,6 +449,8 @@ hr{
     width: 300px;
     height: auto;
     margin: 0 auto;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .menuBtn li {
@@ -472,7 +475,7 @@ hr{
 .sideBar {
     padding-top: 10px;
     background-color: white;
-    display: block;
+    display: table;
     right: -300px;
     position: fixed;
     z-index: 1000;
@@ -485,7 +488,7 @@ hr{
 .sideBarHow {
     padding-top: 10px;
     background-color: white;
-    display: block;
+    display: table;
     right: -1000px;
     position: fixed;
     z-index: 1000;
@@ -495,18 +498,22 @@ hr{
     transition-duration: 0.35s;
 }
 
+.inst {
+    vertical-align: middle;
+    display: table-cell;
+}
+
 .instructions {
     padding: 10px;
     font-family: "Berlin Sans FB";
     font-size: 25px;
     color: black;
-    text-align: center;
 }
 
 .sideBarAbout {
     padding-top: 10px;
     background-color: white;
-    display: block;
+    display: table;
     right: -1000px;
     position: fixed;
     z-index: 1000;
@@ -540,7 +547,6 @@ hr{
 }
 
 .homeBtn {
-    margin-top: 300px;
     color: black;
     border-left: 3px solid orange;
 }
@@ -562,7 +568,7 @@ hr{
 }
 
 .aboutBtn {
-    margin-top: 50px;
+    margin-top: 100px;
     color: grey;
 }
 

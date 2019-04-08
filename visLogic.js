@@ -37,27 +37,10 @@
     function draw() {
         destroy();
         nodes = new vis.DataSet([
-            {id: 1, label: 'y1'},
-            {id: 2, label: 'y2'},
-            {id: 3, label: 'y3'},
-            {id: 4, label: 'y4'},
-            {id: 5, label: 'y5'},
-            {id: 6, label: 'y6'},
-            {id: 7, label: 'y7'},
+            
         ]);
         edges = new vis.DataSet([
-            {from: 1, to: 2, label: '1'},
-            {from: 2, to: 3, label: '5'},
-            {from: 3, to: 4, label: '10'},
-            {from: 4, to: 5, label: '2'},
-            {from: 5, to: 7, label: '1'},
-            {from: 2, to: 6, label: '10'},
-            {from: 6, to: 5, label: '2'},
-            {from: 5, to: 4, label: '-2'},
-            {from: 5, to: 2, label: '-1'},
-            {from: 4, to: 3, label: '-1'},
-            {from: 6, to: 6, label: '-1'},
-            {from: 2, to: 2, label: '-1'},
+
         ]);
 
         // create a network
