@@ -37,7 +37,7 @@
     function draw() {
         destroy();
         nodes = new vis.DataSet([
-            
+
         ]);
         edges = new vis.DataSet([
 
@@ -264,7 +264,32 @@
     function saveNodeData(data, callback) {
         data.label = document.getElementById('node-label').value;
         clearNodePopUp();
+        /*if (nodes.length === 0) {
+            data.color = {background: 'orange', border: 'white', hover: {background: 'orange', border: 'grey'}, highlight: {background: 'orangered', border: 'orange'}};
+            data.font = {color: 'white'};
+        }*/
         callback(data);
+        let arrIds = nodes.getIds();
+        console.log("arrIds: " + arrIds.length);
+
+        for (let i = 0; i < arrIds.length; i++) {
+            if (i === 0) {
+                var clickedNode = nodes.get(arrIds[i]);
+                clickedNode.color = {background: 'orange', border: 'white', hover: {background: 'orange', border: 'grey'}, highlight: {background: 'orangered', border: 'orange'}};
+                clickedNode.font = {color: 'white'};
+                nodes.update(clickedNode);
+            } else if (i === arrIds.length - 1) {
+                var clickedNode = nodes.get(arrIds[i]);
+                clickedNode.color = {background: 'white', border: 'black', hover: {background: 'white', border: 'darkgrey'}, highlight: {background: 'white', border: 'grey'}};
+                clickedNode.font = {color: 'black'};
+                nodes.update(clickedNode);
+            } else {
+                var clickedNode = nodes.get(arrIds[i]);
+                clickedNode.color = {background: 'white', border: 'orange', hover: {background: 'white', border: 'orangered'}, highlight: {background: 'white', border: 'orangered'}};
+                clickedNode.font = {color: 'black'};
+                nodes.update(clickedNode);
+            }
+        }
         network.addNodeMode();
     }
 

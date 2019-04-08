@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a177fc7-2ccc-4649-b86f-d23dd391d525" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visLogic.js" beforeDir="false" afterPath="$PROJECT_DIR$/visLogic.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+            <state relative-caret-position="153">
+              <caret line="91" column="44" lean-forward="true" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -40,20 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/visLogic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+            <state relative-caret-position="346">
+              <caret line="283" column="49" selection-start-line="283" selection-start-column="49" selection-end-line="283" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="381" column="34" lean-forward="true" selection-start-line="381" selection-start-column="34" selection-end-line="381" selection-end-column="34" />
+            <state relative-caret-position="582">
+              <caret line="871" column="57" selection-start-line="871" selection-start-column="57" selection-end-line="871" selection-end-column="57" />
               <folding>
                 <element signature="e#86#93#1" expanded="true" />
                 <element signature="e#124#131#1" expanded="true" />
@@ -96,10 +95,10 @@
         <option value="$PROJECT_DIR$/indexVIS.html" />
         <option value="$PROJECT_DIR$/Edge.js" />
         <option value="$PROJECT_DIR$/node_modules/vis/dist/vis.css" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app.css" />
         <option value="$PROJECT_DIR$/visLogic.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -163,12 +162,12 @@
       <workItem from="1552925535536" duration="88387000" />
       <workItem from="1553418502174" duration="5034000" />
       <workItem from="1553521159998" duration="14746000" />
-      <workItem from="1554747751415" duration="4308000" />
+      <workItem from="1554747751415" duration="12048000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255054000" />
+    <option name="totallyTimeSpent" value="262794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="24" width="1753" height="962" extended-state="6" />
@@ -258,13 +257,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -272,22 +264,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="381" column="34" lean-forward="true" selection-start-line="381" selection-start-column="34" selection-end-line="381" selection-end-column="34" />
-          <folding>
-            <element signature="e#86#93#1" expanded="true" />
-            <element signature="e#124#131#1" expanded="true" />
-            <element signature="e#162#169#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="91" column="44" lean-forward="true" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/visLogic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        <state relative-caret-position="346">
+          <caret line="283" column="49" selection-start-line="283" selection-start-column="49" selection-end-line="283" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="871" column="57" selection-start-line="871" selection-start-column="57" selection-end-line="871" selection-end-column="57" />
+          <folding>
+            <element signature="e#86#93#1" expanded="true" />
+            <element signature="e#124#131#1" expanded="true" />
+            <element signature="e#162#169#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

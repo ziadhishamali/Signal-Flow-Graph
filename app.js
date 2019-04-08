@@ -439,11 +439,22 @@ function App() {
 
         output.innerHTML += '<hr><br><br><br><p class="titleRes">Loops</p>';
 
+        if (this.loopsPathsRefined[0] === undefined) {
+            this.loopsPathsRefined.pop();
+            this.loopsGainRefined.pop();
+            output.innerHTML += '<p class="numForPaths">num of loops =  ' + '<span class="number">' + 0 + '</span>' + '</p>';
+            return;
+        }
+
         output.innerHTML += '<p class="numForPaths">num of loops =  ' + '<span class="number">' + this.loopsPathsRefined.length + '</span>' + '</p>';
 
         console.log("num of loops = " + this.loopsPathsRefined.length);
 
         for (let i = 0; i < this.loopsGainRefined.length; i++) {
+
+            if (this.loopsPathsRefined[i] === undefined) {
+                continue;
+            }
 
             output.innerHTML += '<p class="eachForGain">the Gain of loop number ' + (i + 1) + ' = ' + '<span class="number">' + this.loopsGainRefined[i] + '</span>' + '</p>';
 
@@ -506,6 +517,9 @@ function App() {
                 let firstPath = this.untouched[0][j];
                 console.log("FIRST PATH : " + firstPath);
                 if (starttFlag){
+                    if (this.untouched[i] === undefined) {
+                        continue;
+                    }
                     for (let k = j + 1; k < this.untouched[i].length; k++){
                         let secondPath = this.untouched[i][k];
                         console.log("SECOND PATH : " + secondPath);
@@ -532,6 +546,9 @@ function App() {
                         }
                     }
                 } else {
+                    if (this.untouched[i] === undefined) {
+                        continue;
+                    }
                     for (let k = 0; k < this.untouched[i].length; k++){
                         let secondPath = this.untouched[i][k];
                         console.log("SECOND PATH : " + secondPath);
@@ -564,7 +581,10 @@ function App() {
             starttFlag = false;
             console.log("OUT OF FOR LOOP");
             console.log("COUNTER : " + counter);
-            if (counter == this.untouched[0].length*this.untouched[i].length){
+            if (this.untouched[i] === undefined) {
+                break;
+            }
+            if (counter === this.untouched[0].length*this.untouched[i].length){
                 this.lengthOfUntouched = i;
                 console.log("BREAK : " + i);
                 break;
@@ -833,7 +853,9 @@ function App() {
             }
         }
 
-        deltaStr += ")";
+        if (this.untouchedGainsRefined.length > 2) {
+            deltaStr += ")";
+        }
 
         for (let i = 2; i < this.untouchedGainsRefined.length; i++) {
 
