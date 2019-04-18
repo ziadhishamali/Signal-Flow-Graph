@@ -2,7 +2,563 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a177fc7-2ccc-4649-b86f-d23dd391d525" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/.codeclimate.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/.commits.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/.csslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/.mdlrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/LICENSE-APACHE-2.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/LICENSE-MIT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/acceptDeleteIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/addNodeIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/backIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/connectIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/cross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/cross2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/deleteIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/downArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/editIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/leftArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/rightArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/upArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/zoomExtends.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/vis - Copy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/vis-graph3d.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/vis-network.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/vis-network.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/vis-timeline-graph2d.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/vis-timeline-graph2d.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/vis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/vis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/vis.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/vis.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/vis.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/vis.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/css/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/css/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/css/tipuesearch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/data/dataset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/data/dataview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/data/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/graph2d/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/graph3d/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/crossword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/crosswordStrong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/external-link-icons/external-link-icon-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/external-link-icons/external-link-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/external-link-icons/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/graph/graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/graph/graph120x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/graph3d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/graph3d120x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/timeline/timeline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/timeline/timeline120x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/vis_overview.odg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/vis_overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/docs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/googleAnalytics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/ie-emulation-modes-warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/ie10-viewport-bug-workaround.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/jquery.highlight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/jquery.url.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-apollo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-hs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-lisp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-lua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-ml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-proto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-scala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-sql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-vb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-vhdl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-wiki.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-yaml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/smooth-scroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/tipuesearch.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/tipuesearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/tipuesearch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/toggleTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/network/configure.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/network/edges.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/network/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/network/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/network/interaction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/network/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/network/manipulation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/network/nodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/network/physics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/timeline/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/01_basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/02_bars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/03_groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/04_rightAxis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/05_bothAxis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/06_interpolation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/07_scrollingAndSorting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/08_performance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/09_external_legend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/10_barsSideBySide.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/11_barsSideBySideGroups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/12_customRange.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/13_localization.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/14_toggleGroups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/15_streaming_data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/16_bothAxisTitles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/17_dynamicStyling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/18_scatterplot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/19_labels.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/20_shading.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/21_barsWithEnd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/01_basics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/02_camera.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/03_filter_data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/04_animation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/05_line.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/06_moving_dots.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/07_dot_cloud_colors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/08_dot_cloud_size.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/09_mobile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/10_styling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/11_tooltips.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/12_custom_labels.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/csv2array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/csv2datatable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/datasource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/datasource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/playground.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/playground.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-apollo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-hs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-lisp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-lua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-ml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-proto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-scala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-sql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-vb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-vhdl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-wiki.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-yaml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/basicUsage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/datasets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/data/cellular_automata.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/data/computer_network.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/data/simple.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/dotEdgeStyles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/dotLanguage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/dotPlayground.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/fsm.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/hello.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/process.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/screenshots/fsm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/screenshots/hello.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/screenshots/softmaint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/screenshots/traffic_lights.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/siblings.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/softmaint.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/traffic_lights.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/transparency.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/twopi2.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/unix.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/world.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dynamicData.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/importingFromGephi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/scalingCustom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/scalingNodesEdges.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/scalingNodesEdgesLabels.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/datasources/WorldCup2014.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/datasources/WorldCup2014.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/datasources/largeHierarchicalDataset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/edgeStyles/arrowTypes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/edgeStyles/arrows.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/edgeStyles/colors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/edgeStyles/dashes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/edgeStyles/smooth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/edgeStyles/smoothWorldCup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/events/interactionEvents.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/events/physicsEvents.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/events/renderEvents.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/exampleApplications/disassemblerExample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/exampleApplications/disassemblerExample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/exampleApplications/lesMiserables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/exampleApplications/loadingBar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/exampleApplications/neighbourhoodHighlight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/exampleApplications/nodeLegend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/exampleApplications/worldCupPerformance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/exampleUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/imageSelected/broken-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/imageSelected/imageSelected.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/imageSelected/selected.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/imageSelected/unselected.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Hardware-Fax-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Hardware-Laptop-1-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Hardware-Mobile-Phone-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Hardware-My-Computer-3-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Hardware-My-PDA-02-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Hardware-My-PDA-04-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Hardware-My-PDA-05-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Hardware-My-Phone-Picture-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Hardware-Printer-Blue-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Misc-Scanner-default-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Network-Drive-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Network-Internet-Connection-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Network-Pipe-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/System-Firewall-2-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/System-Globe-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Document-icon24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Document-icon32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Document-icon48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Email-icon24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Email-icon32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Email-icon48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Folder-icon24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Folder-icon32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Folder-icon48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Folder-icon64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Smiley-Angry-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Smiley-Grin-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/User-Administrator-Blue-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/User-Administrator-Green-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/User-Coat-Blue-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/User-Coat-Green-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/User-Coat-Red-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/User-Executive-Green-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/User-Preppy-Blue-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/User-Preppy-Red-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/labels/labelAlignment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/labels/labelBackground.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/labels/labelColorAndSize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/labels/labelMargins.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/labels/labelMultifont.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/labels/labelStroke.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/labels/multilineText.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/layout/demo.jsonp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/layout/demo_big.jsonp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/layout/hierarchicalLayout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/layout/hierarchicalLayoutBigUserDefined.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/layout/hierarchicalLayoutMethods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/layout/hierarchicalLayoutUserdefined.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/layout/hierarchicalLayoutWithoutPhysics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/layout/randomSeed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/HTMLInNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/circularImages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/colors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/customGroups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/imagesWithBorders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/shadows.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/shapes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/shapesWithDashedBorders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/widthHeight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/other/animationShowcase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/other/changingClusteredEdgesNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/other/chosen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/other/clustering.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/other/clusteringByZoom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/other/clustersOfclusters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/other/configuration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/other/cursorChange.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/other/manipulation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/other/manipulationEditEdgeNoDrag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/other/navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/other/onLoadAnimation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/other/performance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/other/saveAndLoad.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/physics/physicsConfiguration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/basicUsage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/dataHandling/dataSerialization.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/dataHandling/loadExternalData.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/editing/customSnappingOfItems.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/editing/editingItems.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/editing/editingItemsCallbacks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/editing/individualEditableItems.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/editing/itemsAlwaysDraggable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/editing/overrideEditingItems.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/editing/tooltipOnItemChange.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/editing/updateDataOnEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/groups/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/groups/groupsEditable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/groups/groupsOrdering.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/groups/nestedGroups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/groups/subgroups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/groups/verticalItemsHide.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/interaction/animateWindow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/interaction/clickToUse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/interaction/eventListeners.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/interaction/limitMoveAndZoom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/interaction/navigationMenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/interaction/rollingMode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/interaction/setSelection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/items/backgroundAreas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/items/backgroundAreasWithGroups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/items/expectedVsActualTimesItems.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/items/htmlContents.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/items/itemOrdering.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/items/pointItems.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/items/rangeOverflowItem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/items/tooltip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/items/visibleFrameTemplateContent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/customTimeBars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/customTimeBarsTooltip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/dataAttributes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/dataAttributesAll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/drag&amp;drop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/functionLabelFormats.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/groupsPerformance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/hidingPeriods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/horizontalScroll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/localization.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/performance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/requirejs/requirejs_example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/requirejs/scripts/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/requirejs/scripts/require.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/rtl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/stressPerformance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/timezone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/usingReact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/verticalScroll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/data/basic.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/data/wk2014.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/Hardware-Mobile-Phone-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/attachment-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/blog-post-edit-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/comments-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/community-users-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/license_aesthetica-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/license_refresh-cl.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/mail-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/notes-edit-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/product-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/truck-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/styling/axisOrientation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/styling/customCss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/styling/gridStyling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/styling/itemClassNames.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/styling/itemTemplates.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/styling/weekStyling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/index-graph3d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/index-network.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/index-timeline-graph2d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/DOMutil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/DataSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/DataView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/Queue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/graph3d/Camera.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/graph3d/DataGroup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/graph3d/Filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/graph3d/Graph3d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/graph3d/Point2d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/graph3d/Point3d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/graph3d/Range.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/graph3d/Settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/graph3d/Slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/graph3d/StepNumber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/graph3d/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/hammerUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/module/hammer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/module/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/module/uuid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/CachedImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/Images.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/Network.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/NetworkUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/css/network-colorpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/css/network-manipulation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/css/network-navigation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/dotparser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/gephiParser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/img/acceptDeleteIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/img/addNodeIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/img/backIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/img/connectIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/img/cross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/img/cross2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/img/deleteIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/img/downArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/img/editIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/img/leftArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/img/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/img/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/img/rightArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/img/upArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/img/zoomExtends.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/locales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/Canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/CanvasRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/Clustering.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/EdgesHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/Groups.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/InteractionHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/KamadaKawai.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/LayoutEngine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/ManipulationSystem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/NodesHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/PhysicsEngine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/SelectionHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/View.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/DirectionStrategy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/Edge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/NavigationHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/Node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/algorithms/FloydWarshall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/edges/BezierEdgeDynamic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/edges/BezierEdgeStatic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/edges/CubicBezierEdge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/edges/StraightEdge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/edges/util/BezierEdgeBase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/edges/util/CubicBezierEdgeBase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/edges/util/EdgeBase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/edges/util/EndPoints.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/nodes/Cluster.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/nodes/shapes/Box.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/nodes/shapes/Circle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/nodes/shapes/CircularImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/nodes/shapes/Database.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/nodes/shapes/Diamond.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/nodes/shapes/Dot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/nodes/shapes/Ellipse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/nodes/shapes/Hexagon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/nodes/shapes/Icon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/nodes/shapes/Image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/nodes/shapes/Square.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/nodes/shapes/Star.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/nodes/shapes/Text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/nodes/shapes/Triangle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/nodes/shapes/TriangleDown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/nodes/util/CircleImageBase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/nodes/util/NodeBase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/nodes/util/ShapeBase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/physics/BarnesHutSolver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/physics/CentralGravitySolver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/physics/FA2BasedCentralGravitySolver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/physics/FA2BasedRepulsionSolver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/physics/HierarchicalRepulsionSolver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/physics/HierarchicalSpringSolver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/physics/RepulsionSolver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/physics/SpringSolver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/shared/ComponentUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/shared/Label.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/shared/LabelAccumulator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/modules/components/shared/LabelSplitter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/network/shapes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/shared/Activator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/shared/ColorPicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/shared/Configurator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/shared/Popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/shared/Validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/shared/activator.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/shared/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/shared/configuration.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/shared/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/Core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/DateUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/Graph2d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/Range.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/Stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/TimeStep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/Timeline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/BackgroundGroup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/Component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/CurrentTime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/CustomTime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/DataAxis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/DataScale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/GraphGroup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/Group.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/ItemSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/Legend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/LineGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/TimeAxis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/css/animation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/css/currenttime.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/css/customtime.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/css/dataaxis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/css/item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/css/itemset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/css/labelset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/css/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/css/pathStyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/css/timeaxis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/css/timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/graph2d_types/bar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/graph2d_types/line.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/graph2d_types/points.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/item/BackgroundItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/item/BoxItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/item/Item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/item/PointItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/component/item/RangeItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/locales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/optionsGraph2d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/timeline/optionsTimeline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/lib/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/npm-debug.log.2959790586" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visLogic.js" beforeDir="false" afterPath="$PROJECT_DIR$/visLogic.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,11 +577,15 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="91" column="44" lean-forward="true" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
+            <state relative-caret-position="256">
+              <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,8 +593,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="501" column="26" selection-start-line="501" selection-start-column="26" selection-end-line="501" selection-end-column="26" />
+            <state relative-caret-position="159">
+              <caret line="497" column="4" selection-start-line="497" selection-start-column="4" selection-end-line="498" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -42,17 +602,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/visLogic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
+            <state relative-caret-position="4528">
               <caret line="283" column="49" selection-start-line="283" selection-start-column="49" selection-end-line="283" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="871" column="57" selection-start-line="871" selection-start-column="57" selection-end-line="871" selection-end-column="57" />
+            <state relative-caret-position="294">
+              <caret line="853" column="9" selection-start-line="853" selection-start-column="9" selection-end-line="853" selection-end-column="9" />
               <folding>
                 <element signature="e#86#93#1" expanded="true" />
                 <element signature="e#124#131#1" expanded="true" />
@@ -95,18 +655,18 @@
         <option value="$PROJECT_DIR$/indexVIS.html" />
         <option value="$PROJECT_DIR$/Edge.js" />
         <option value="$PROJECT_DIR$/node_modules/vis/dist/vis.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app.css" />
         <option value="$PROJECT_DIR$/visLogic.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="948" />
-    <option name="y" value="29" />
-    <option name="width" value="979" />
-    <option name="height" value="1058" />
+    <option name="x" value="947" />
+    <option name="y" value="28" />
+    <option name="width" value="980" />
+    <option name="height" value="1059" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -131,6 +691,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="Z:/React.js apps/To Do App" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -162,12 +723,13 @@
       <workItem from="1552925535536" duration="88387000" />
       <workItem from="1553418502174" duration="5034000" />
       <workItem from="1553521159998" duration="14746000" />
-      <workItem from="1554747751415" duration="12048000" />
+      <workItem from="1554747751415" duration="12803000" />
+      <workItem from="1555447037250" duration="2940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262794000" />
+    <option name="totallyTimeSpent" value="266489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="24" width="1753" height="962" extended-state="6" />
@@ -250,6 +812,13 @@
     <entry file="file://$PROJECT_DIR$/404.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/visLogic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4528">
+          <caret line="283" column="49" selection-start-line="283" selection-start-column="49" selection-end-line="283" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Node.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -257,35 +826,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="853" column="9" selection-start-line="853" selection-start-column="9" selection-end-line="853" selection-end-column="9" />
+          <folding>
+            <element signature="e#86#93#1" expanded="true" />
+            <element signature="e#124#131#1" expanded="true" />
+            <element signature="e#162#169#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="501" column="26" selection-start-line="501" selection-start-column="26" selection-end-line="501" selection-end-column="26" />
+        <state relative-caret-position="159">
+          <caret line="497" column="4" selection-start-line="497" selection-start-column="4" selection-end-line="498" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ziadhisham.github.io/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="74" column="10" lean-forward="true" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="91" column="44" lean-forward="true" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visLogic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="283" column="49" selection-start-line="283" selection-start-column="49" selection-end-line="283" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="871" column="57" selection-start-line="871" selection-start-column="57" selection-end-line="871" selection-end-column="57" />
+        <state relative-caret-position="256">
+          <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
           <folding>
-            <element signature="e#86#93#1" expanded="true" />
-            <element signature="e#124#131#1" expanded="true" />
-            <element signature="e#162#169#1" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

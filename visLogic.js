@@ -7,7 +7,7 @@
         x.classList.toggle("change");
         if (document.getElementById("sideBar").style.right <= "-300px") {
             document.getElementById("sideBar").style.right = "0px";
-            document.getElementById("container").style.right = "330px";
+            document.getElementById("container").style.right = "30px";
             document.getElementById("allContent").style.right = "300px";
             document.getElementById("moveToTop").style.right = "330px";
         } else {
@@ -110,7 +110,7 @@
         };
 
         howBtn.onclick = function () {
-            document.getElementById("container").style.right = "1330px";
+            document.getElementById("container").style.right = "30px";
             document.getElementById("allContent").style.right = "1300px";
             document.getElementById("moveToTop").style.right = "1330px";
             document.getElementById("sideBarHow").style.right = "0px";
@@ -125,7 +125,7 @@
         };
 
         aboutBtn.onclick = function () {
-            document.getElementById("container").style.right = "1330px";
+            document.getElementById("container").style.right = "30px";
             document.getElementById("allContent").style.right = "1300px";
             document.getElementById("moveToTop").style.right = "1330px";
             document.getElementById("sideBarAbout").style.right = "0px";
