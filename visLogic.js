@@ -9,7 +9,7 @@
             document.getElementById("sideBar").style.right = "0px";
             document.getElementById("container").style.right = "30px";
             document.getElementById("allContent").style.right = "300px";
-            document.getElementById("moveToTop").style.right = "330px";
+            document.getElementById("moveToTop").style.right = "30px";
         } else {
             document.getElementById("sideBar").style.right = "-300px";
             document.getElementById("sideBarHow").style.right = "-1000px";
@@ -112,7 +112,7 @@
         howBtn.onclick = function () {
             document.getElementById("container").style.right = "30px";
             document.getElementById("allContent").style.right = "1300px";
-            document.getElementById("moveToTop").style.right = "1330px";
+            document.getElementById("moveToTop").style.right = "30px";
             document.getElementById("sideBarHow").style.right = "0px";
             document.getElementById("sideBar").style.right = "1000px";
             document.getElementById("sideBarAbout").style.right = "-1000px";
@@ -127,7 +127,7 @@
         aboutBtn.onclick = function () {
             document.getElementById("container").style.right = "30px";
             document.getElementById("allContent").style.right = "1300px";
-            document.getElementById("moveToTop").style.right = "1330px";
+            document.getElementById("moveToTop").style.right = "30px";
             document.getElementById("sideBarAbout").style.right = "0px";
             document.getElementById("sideBar").style.right = "1000px";
             document.getElementById("sideBarHow").style.right = "-1000px";
